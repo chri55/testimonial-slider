@@ -158,6 +158,12 @@ body {
   }
 }
 
+@media only screen and (max-width:800px) and (max-height: 800px) {
+  .body-text {
+    font-size: 26px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   body {
     flex-flow: column nowrap;
@@ -236,15 +242,11 @@ body {
   }
 
   .body-text {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
-@media only screen and (max-width:800px) and (max-height: 800px) {
-  .body-text {
-    font-size: 26px;
-  }
-}
+
 
 @media only screen and (max-width: 350px) {
   .body-text {
